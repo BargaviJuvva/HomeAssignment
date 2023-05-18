@@ -7,7 +7,7 @@ To setup this project follow the command
  npm install @wdio/cli
  npm wdio config (A set of question will be asked choose as per your choice)
       These command creates a cucumber framework ready with a dummy project
-  **(As per the Assignment the feature files are optional)    
+  **(As per the Assignment the feature and nodemodules are optional so removed.)    
  
  Steps reproduced for the project
 1.Created a json file with "heartbeat.json" title and copied the given data
