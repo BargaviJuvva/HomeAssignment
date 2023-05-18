@@ -1,7 +1,7 @@
 const array = require("./heartbeat.json");
 let beats, time, median, sum = 0, length = 0, maxiDate;
 
-for (let i = 10; i <= array.length; i++) {
+for (let i = 472; i <= array.length; i++) {
     const element = array[i];
 
     beats = array.map((item) => item.beatsPerMinute)
