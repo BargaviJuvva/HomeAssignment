@@ -24,10 +24,10 @@ maxiDate = new Date(
         }),
     ),
 );
-console.log("MAX Beats==> " + Math.max(...beats));
-console.log("MIN Beats==> " + Math.min(...beats));
-console.log("MEDIAN Beats ==> " + median);
-console.log("latestDataTimestamp ==> " +maxiDate);
+console.log("MAX Beats: " + Math.max(...beats));
+console.log("MIN Beats: " + Math.min(...beats));
+console.log("MEDIAN Beats: " + median);
+console.log("latestDataTimestamp: " +maxiDate);
 
 
 
